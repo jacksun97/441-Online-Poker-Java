@@ -1,0 +1,19 @@
+Online Text-Based Poker
+
+Tutorial 3 Group 5
+    Dheeraj Kumar
+    Weize Sun
+    Jiaxuan Tong
+    Philip Dometita
+    
+Instructions for running:
+    1. download server folder on machine where server is to be hosted
+    2. download client folder on client machine
+    3. perform the following in the folder that contains the client/server folder
+    4. compile server code with the command: javac server/*.java
+    5. compile client code with the command: javac client/*.java
+    6. run server code with the command: java server.PokerServer <Port>
+    7. run client code with the command: java client.PokerClient <server ip> <Port>
+    
+PokerServer.java contains code (specifically the accepting connections) by Dr. Mea Wang
+PokerClient.java contains code (specfically establishing connection) by Dr. Mea Wang
